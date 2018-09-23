@@ -1,4 +1,3 @@
-#
 # Each instruction in this file generates a new layer that gets pushed to your local image cache
 #
 
@@ -23,7 +22,7 @@ RUN apt-get update && apt-get upgrade -y
 RUN apt-get install nginx -y
 
 #
-# Expose port 80
+# Expose port 22
 EXPOSE 22
 
 #
